@@ -1,1 +1,0 @@
-const analysis = document.getElementById()
