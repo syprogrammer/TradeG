@@ -1366,11 +1366,11 @@ nav ul li a:hover,
 
 @media only screen and (min-width: 600px) and (max-width:100px) {
     .download_container .logo img {
-        width: 100px;
+        width: 200px;
     }
 
     .download_links img {
-        width: 100px;
+        width: 200px;
     }
 
 }
@@ -1452,12 +1452,18 @@ nav ul li a:hover,
     }
 
     .footer_container .upper .links {
-        width: 90%;
-        padding: 0rem 4rem;
+        width: 100%;
+        padding: 0rem 2rem;
+       
+    }
+    .footer_container .upper .links ul{
+        width: 100%;
+        font-size: 15px;
     }
 
     .address {
-        padding: 0rem 4rem;
+        padding: 0rem 10rem;
+        font-size: 10px;
     }
 
     .address,
