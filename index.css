@@ -1408,12 +1408,12 @@ nav ul li a:hover,.dropdown span:hover{
 }
 
 .careers_btn {
-    margin: 1rem;
+    margin: 1rem 2rem;
     width: fit-content;
     background-color: black;
     color: white;
     font-size: 15px;
-    padding: 2px 22px;
+    padding: 2px 35px;
     cursor: pointer;
 }
 
@@ -1441,8 +1441,11 @@ nav ul li a:hover,.dropdown span:hover{
 
     .footer_container .upper .links {
         width: 90%;
+        padding: 0rem 4rem;
     }
-
+.address{
+    padding: 0rem 4rem;
+}
     .address,
     .map {
         font-size: 15px;
