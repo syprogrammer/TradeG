@@ -73,7 +73,7 @@ nav ul li a:hover,.dropdown span:hover{
 
 .menu_icon img {
     width: 25px;
-    padding: 10px;
+    padding: 15px;
     float: right;
 }
 
@@ -159,7 +159,8 @@ nav ul li a:hover,.dropdown span:hover{
     }
 
     .header_container .logo img {
-        width: 90px;
+        width: 120px;
+        margin: 1rem;
     }
 
     .auth_btn {
