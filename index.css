@@ -19,7 +19,8 @@ nav ul li {
     padding: 4px 4px;
 }
 
-nav ul li a ,.dropdown {
+nav ul li a,
+.dropdown {
     color: white;
     text-decoration: none;
     font-size: 12px;
@@ -28,14 +29,17 @@ nav ul li a ,.dropdown {
     cursor: pointer;
 
 }
-nav ul li a:hover,.dropdown span:hover{
+
+nav ul li a:hover,
+.dropdown span:hover {
     color: yellow;
 }
-.dropdown_links{
+
+.dropdown_links {
     width: 60%;
-    margin:auto;
+    margin: auto;
     background-color: rgba(212, 209, 209, 0.486);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     display: grid;
     grid-template-columns: auto auto auto;
     flex-wrap: wrap;
@@ -44,27 +48,34 @@ nav ul li a:hover,.dropdown span:hover{
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 100vw;
-  left: 0;
-  
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100vw;
+    left: 0;
+
+    z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
 /* ------------------- smaller device --------------------  */
 #smaller_device {
     background-color: black;
@@ -1444,9 +1455,11 @@ nav ul li a:hover,.dropdown span:hover{
         width: 90%;
         padding: 0rem 4rem;
     }
-.address{
-    padding: 0rem 4rem;
-}
+
+    .address {
+        padding: 0rem 4rem;
+    }
+
     .address,
     .map {
         font-size: 15px;
